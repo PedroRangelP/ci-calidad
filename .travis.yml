@@ -1,0 +1,7 @@
+language: java
+script:
+  - mvn test
+deploy:
+  provider: heroku
+  api_key: 59e6bfe3-0097-4008-a318-2bd4b2100d79
+  app: ci-calidad
